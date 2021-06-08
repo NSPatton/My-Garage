@@ -7,6 +7,7 @@ namespace Garage
         public string MainColor { get; set; }
         public int MaximumOccupancy { get; set; }
 
+
         public virtual void Drive()
         {
             Console.WriteLine("Vrooom!");
@@ -14,7 +15,7 @@ namespace Garage
 
         public virtual void Turn(string direction)
         {
-            Console.WriteLine("The vehicle carefully turns right.");
+            Console.WriteLine($"The vehicle carefully turns {direction}");
         }
 
         public virtual void Stop()

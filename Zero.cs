@@ -12,5 +12,15 @@ namespace Garage
             Console.Write($"This {MainColor} Zero Speeds Past! ");
             base.Drive();
         }
+
+        public override void Turn(string direction)
+        {
+            base.Turn(direction);
+        }
+
+        public override void Stop()
+        {
+            base.Stop();
+        }
     }
 }

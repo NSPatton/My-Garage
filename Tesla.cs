@@ -15,7 +15,7 @@ namespace Garage
 
         public override void Turn(string direction)
         {
-            base.Turn(direction);
+            Console.WriteLine($"The {MainColor} Tesla drifts {direction} around a corner!");
         }
 
         public override void Stop()
